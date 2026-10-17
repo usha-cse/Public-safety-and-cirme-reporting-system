@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output
+frontend/dist/
+coverage/
+
+# Uploaded files and datasets
+backend/uploads/
+ml-service/dataset/
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Frontend build output
+frontend/dist/
+coverage/
+
+# Uploaded incident evidence
+backend/uploads/
+
+# ML datasets and temporary files
+ml-service/dataset/
+ml-service/__pycache__/

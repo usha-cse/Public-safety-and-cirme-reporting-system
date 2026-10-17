@@ -1,0 +1,92 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded evidence and private files
+uploads/
+
+# Test coverage
+coverage/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Uploaded files and evidence
+uploads/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Test coverage
+coverage/
+
+# Ignore Python virtual environments
+.venv/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded citizen evidence
+backend/uploads/
+uploads/
+
+# Python virtual environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+coverage/
+
+# ML training dataset
+ml-service/dataset/

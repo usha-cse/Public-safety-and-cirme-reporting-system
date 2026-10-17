@@ -1,0 +1,452 @@
+.assigned-page {
+  min-height: 100vh;
+  background: #f6f8fb;
+  color: #172033;
+}
+
+/* Main */
+
+.assigned-main {
+  margin-left: 225px;
+  padding: 35px 50px 55px;
+}
+
+/* Header */
+
+.assigned-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
+.page-label {
+  color: #d94738;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  margin-bottom: 5px;
+}
+
+.assigned-header h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.page-description {
+  color: #707b8b;
+  font-size: 13px;
+}
+
+.assigned-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 9px 13px;
+
+  background: white;
+  border: 1px solid #e1e6ec;
+  border-radius: 6px;
+
+  color: #596474;
+  font-size: 10px;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+
+  background: #49b675;
+  border-radius: 50%;
+}
+
+/* Summary */
+
+.assigned-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.assigned-stat {
+  background: white;
+
+  border: 1px solid #e1e6ec;
+  border-radius: 8px;
+
+  padding: 18px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.assigned-stat span {
+  color: #7e8897;
+  font-size: 10px;
+}
+
+.assigned-stat strong {
+  font-size: 24px;
+}
+
+.assigned-stat small {
+  color: #a0a7b1;
+  font-size: 9px;
+}
+
+/* Card */
+
+.assigned-card {
+  background: white;
+
+  border: 1px solid #e1e6ec;
+  border-radius: 8px;
+
+  padding: 22px;
+
+  margin-bottom: 18px;
+}
+
+.assigned-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-bottom: 22px;
+}
+
+.assigned-card-header h2 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.assigned-card-header p {
+  color: #8993a2;
+  font-size: 10px;
+}
+
+/* Filters */
+
+.assigned-filters {
+  display: flex;
+  gap: 8px;
+}
+
+.assigned-filters input,
+.assigned-filters select {
+  background: white;
+
+  border: 1px solid #dfe4ea;
+  border-radius: 6px;
+
+  padding: 9px 11px;
+
+  color: #596474;
+  font-size: 10px;
+
+  outline: none;
+}
+
+.assigned-filters input {
+  width: 160px;
+}
+
+.assigned-filters select {
+  cursor: pointer;
+}
+
+/* Table */
+
+.assigned-table-wrapper {
+  overflow-x: auto;
+}
+
+.assigned-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.assigned-table th {
+  text-align: left;
+
+  color: #8993a2;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 0.7px;
+
+  padding: 12px 10px;
+
+  border-bottom: 1px solid #e7ebef;
+}
+
+.assigned-table td {
+  padding: 16px 10px;
+
+  font-size: 10px;
+  color: #596474;
+
+  border-bottom: 1px solid #edf0f3;
+
+  vertical-align: middle;
+}
+
+.assigned-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.assigned-table tbody tr:hover {
+  background: #fafbfc;
+}
+
+.assigned-table small {
+  display: block;
+
+  color: #9aa2ad;
+
+  font-size: 8px;
+
+  margin-top: 4px;
+}
+
+.case-id {
+  color: #172033;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.incident-title {
+  color: #172033;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.officer-name {
+  color: #3f4a5a;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* Priority */
+
+.priority-badge {
+  display: inline-block;
+
+  padding: 5px 9px;
+
+  border-radius: 12px;
+
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.priority-badge.high {
+  background: #fff0ee;
+  color: #d94738;
+}
+
+.priority-badge.medium {
+  background: #fff6e4;
+  color: #a97000;
+}
+
+.priority-badge.low {
+  background: #edf5ff;
+  color: #3975b3;
+}
+
+/* Status */
+
+.case-status {
+  display: inline-block;
+
+  padding: 5px 9px;
+
+  border-radius: 12px;
+
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.case-status.assigned {
+  background: #edf5ff;
+  color: #3975b3;
+}
+
+.case-status.investigation {
+  background: #f2edfa;
+  color: #805aa5;
+}
+
+.case-status.resolved {
+  background: #eaf7ef;
+  color: #328052;
+}
+
+/* Action */
+
+.view-case {
+  color: #d94738;
+
+  text-decoration: none;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.view-case:hover {
+  text-decoration: underline;
+}
+
+/* Responsible AI */
+
+.assigned-note {
+  padding: 18px 20px;
+
+  background: #eef5ff;
+
+  border: 1px solid #d8e7fa;
+
+  border-radius: 8px;
+
+  display: flex;
+
+  gap: 13px;
+}
+
+.assigned-note-icon {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+
+  background: #3977b8;
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+.assigned-note h3 {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.assigned-note p {
+  color: #687588;
+
+  font-size: 10px;
+
+  line-height: 1.6;
+}
+
+/* Responsive */
+
+@media (max-width: 1100px) {
+  .assigned-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .assigned-card-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .official-sidebar {
+    display: none;
+  }
+
+  .assigned-main {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .assigned-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .assigned-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .assigned-filters {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.assigned-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.assigned-refresh-btn {
+  padding: 10px 16px;
+  border: 1px solid #dce2ed;
+  border-radius: 9px;
+  background: #fff;
+  color: #26334c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.assigned-refresh-btn:hover {
+  background: #edf2ff;
+}
+
+.assigned-refresh-btn:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.assigned-last-updated {
+  display: block;
+  margin-top: 8px;
+  color: #788197;
+}
+
+.assigned-message {
+  padding: 42px 20px;
+  text-align: center;
+  color: #68738a;
+}
+
+.assigned-message h3 {
+  margin: 0 0 8px;
+  color: #26334c;
+}
+
+.assigned-message p {
+  margin: 0;
+}
+
+.assigned-error {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #f1c6cb;
+  border-radius: 9px;
+  background: #fff1f2;
+  color: #9e2635;
+}
+
+.assigned-error button {
+  padding: 8px 12px;
+  border: 1px solid #e7a5ad;
+  border-radius: 7px;
+  background: white;
+  cursor: pointer;
+}
